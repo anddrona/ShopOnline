@@ -1,5 +1,11 @@
+@import url(../text/text.css);
+@import url(../nav-part/nav-part.css);
+@import url(../photo/photo.css);
+@import url(../advice/advice.css);
+
+
 @font-face{
-    font-family: 'lato-regular',sans-serif; 
+    font-family: "lato-regular"; 
     src: local("lato-regular"),
     url("../fonts/lato-regular.woff2") format("woff2"),
     local("Droidserif"),
@@ -13,7 +19,7 @@
 }
 
 @font-face{
-    font-family: "lato-medium"; 
+    font-family: "lato-medium", "Lato"; 
     src: local("lato-medium"), url("../fonts/lato-medium.woff2") format("woff2");
     font-display: swap;
 }
@@ -25,7 +31,7 @@
 }
 
 body {
-    font-family: 'lato-regular', "Lato";
+    font-family: "lato-regular", sans-serif;
     margin: 0;
     line-height: 1.5;
 }
@@ -36,16 +42,15 @@ h1 {
 }
 
 article {
-    margin: 100px auto 85px auto;
+    padding-top: 100px;
+    padding-bottom: 85px;
+    margin: 0 auto;
     max-width: 1780px;
     font-size: 22px;
     color: rgb(45, 45, 45);
 }
-p:nth-child(2){
-    margin-bottom: 40px;
- }
 
-article .stage p:nth-child(2), p, h4 {
+article .stage .stage__text:nth-child(2), p, h4 {
     margin: 0;
 }
 
@@ -53,41 +58,10 @@ h4 {
     font-family: "lato-heavy",sans-serif;
 }
 
-ol {
-    padding: 0;
-    margin-bottom: 0;
-    margin-top: 50px;
-    list-style-position: inside;
-}
-
-ol li {
-    color: rgb(82, 82, 82);
-    font-family: "lato-medium", sans-serif; 
-    font-size: 16px;
-}
-
-img {
-    vertical-align: top;
-    width: 100%;
-    margin-top: 47px;
-}
-
-.advice {
-    margin-top: 50px;
-    font-size: 22px;
-    letter-spacing: 1.5;
-    word-spacing: 2px;
-    color: rgb(82, 82, 82);
-}
-
-.advice h4 {
-    margin-bottom: 4px;
-}
-
 .block {
     max-width: 1095px;
 }
 
 .stage {
-    margin-top: 50px;
+    padding-top: 50px;
 }

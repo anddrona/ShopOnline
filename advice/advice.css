@@ -1,0 +1,11 @@
+.advice {
+    padding-top: 50px;
+    font-size: 22px;
+    letter-spacing: 1.5;
+    word-spacing: 2px;
+    color: rgb(82, 82, 82);
+}
+
+.advice h4 {
+    margin-bottom: 4px;
+}
